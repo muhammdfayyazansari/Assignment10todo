@@ -1,0 +1,87 @@
+body{
+    background-color: #251f44;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
+}
+.main{
+    background-color: #1f4068;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.input{
+    font-size: larger;
+    border: transparent;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: #251f44 solid 1px !important;
+    
+}
+.input:focus{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: #fff solid 1px !important;
+    outline: none;
+}
+.btn{
+    min-width: 30px;
+    margin: 0px 5px;
+    color: #fff;
+    background-color: coral ;
+}
+.btn:focus{
+    box-shadow: 0 0 0 5px transparent;
+    color: #251f44 ;
+}
+table, tr, td{
+    
+    border-collapse: collapse;
+}
+table{
+    font-size: small;
+    width: 90%;
+    background-color: coral;
+}
+td{
+    background-color: blue;
+    min-width: 30px;
+}
+td input{
+    size: 30;
+    min-width: 20px;
+}
+td button{
+    font-size: smaller !important;
+}
+.list{
+    width: 100% !important;
+}
+
+.list button{
+    padding: 1px 20px;
+    color: #fff;
+    background-color: coral;
+    border: transparent solid;
+}
+.list button:focus{
+    box-shadow: 0 0 0 5px transparent;
+    color: #251f44 ;
+}
+.edit{
+    border: transparent;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: #fff solid 1px !important ;
+    
+    
+}
+.edit:focus{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border-bottom: coral solid 1px !important ;
+    outline: none;
+}
